@@ -1,0 +1,6 @@
+2026-05-28 08:12:51.742853+05:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'male ' (PATIENT: ""GENDER"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."PATIENT"("ID","ADMITTED","AGE","CITY","DISEASE","GENDER","PATIENT_NAME")VALUES(?,?,?,?,?,?,?) [22018-240]
+2026-05-28 08:12:51.761442+05:30 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLDataException: Data conversion error converting "'male ' (PATIENT: ""GENDER"" INTEGER NOT NULL)"; SQL statement:
+INSERT INTO "PUBLIC"."PATIENT"("ID","ADMITTED","AGE","CITY","DISEASE","GENDER","PATIENT_NAME")VALUES(?,?,?,?,?,?,?) [22018-240]
