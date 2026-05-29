@@ -8,4 +8,6 @@ public interface PatientService{
     public List<Patient> getPatients();
 
     public String addPatient(Patient patient);
+
+    Patient getpatientbyName(String patientName);
 }

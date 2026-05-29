@@ -9,67 +9,67 @@ import jakarta.persistence.Id;
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long Id ;
-    private String PatientName ;
-    private int Age ;
-    private int Gender ;
-    private String Disease ;
-    private String City ;
-    private Boolean Admitted ;
+    private long id;
+    private String patientName;
+    private int age;
+    private String gender;
+    private String disease;
+    private String city;
+    private Boolean admitted;
 
     public long getId() {
-        return Id;
+        return id;
     }
 
     public void setId(long id) {
-        Id = id;
+        this.id = id;
     }
 
     public String getPatientName() {
-        return PatientName;
+        return patientName;
     }
 
     public void setPatientName(String patientName) {
-        PatientName = patientName;
+        this.patientName = patientName;
     }
 
     public int getAge() {
-        return Age;
+        return age;
     }
 
     public void setAge(int age) {
-        Age = age;
+        this.age = age;
     }
 
-    public int getGender() {
-        return Gender;
+    public String getGender() {
+        return gender;
     }
 
-    public void setGender(int gender) {
-        Gender = gender;
+    public void setGender(String gender) {
+        this.gender = gender;
     }
 
     public String getDisease() {
-        return Disease;
+        return disease;
     }
 
     public void setDisease(String disease) {
-        Disease = disease;
+        this.disease = disease;
     }
 
     public String getCity() {
-        return City;
+        return city;
     }
 
     public void setCity(String city) {
-        City = city;
+        this.city = city;
     }
 
     public Boolean getAdmitted() {
-        return Admitted;
+        return admitted;
     }
 
     public void setAdmitted(Boolean admitted) {
-        Admitted = admitted;
+        this.admitted = admitted;
     }
 }

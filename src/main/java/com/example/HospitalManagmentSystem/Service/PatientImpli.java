@@ -25,4 +25,11 @@ public class PatientImpli implements PatientService{
 
         return " patient has been added succesfully ";
     }
+    @Override
+    public Patient getpatientbyName(String patientName){
+        Patient patname =patientRepo.findPatientByPatientName(patientName);
+        return patname ;
+
+    }
+
 }
